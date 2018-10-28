@@ -42,6 +42,20 @@
 			<br />
 			<button type="submit" class="btn btn-info">저장</button>
 		</form:form>
+		<hr />
+		<h3>사용자목록</h3>
+		<table class="table table-bordered" style="width: 500px;">
+			<c:forEach var="student" items="${ students }">
+				<tr>
+					<td>${ student.id }</td>
+					<td>${ student.studentNumber }</td>
+					<td>${ student.name }</td>
+					<td>${ student.departmentName }</td>
+					<td><fmt:formatDate pattern="HH:mm:ss"
+							value="${ student.time }" /></td>
+				</tr>
+			</c:forEach>
+		</table>
 	</div>
 </body>
 </html>
