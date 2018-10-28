@@ -12,5 +12,6 @@
 	<br />
 	<a href="mybatis/cacheTest">mybatis/cacheTest</a> 
 	<br />
+	<a href="mybatis/departmentList1">mybatis/departmentList1</a> <br />
 </body>
 </html>
