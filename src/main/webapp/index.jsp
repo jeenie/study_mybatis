@@ -10,5 +10,7 @@
 	<a href="student/list">student/list</a>
 	<a href="student/list2">student/list2</a>
 	<br />
+	<a href="mybatis/cacheTest">mybatis/cacheTest</a> 
+	<br />
 </body>
 </html>
